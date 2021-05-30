@@ -1,0 +1,24 @@
+.box-comments {
+    background-color: #DDD;
+    height: 210px;
+    width: 500px;
+    border-radius: 15px;
+    margin-right: 70px;
+    padding: 30px 45px 0px 45px;
+}
+
+.box-comments .circle {
+    display: inline-flex;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.box-comments .user-comment {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.box-comments .user-namework {
+    margin-top: 35px;
+}
