@@ -1,0 +1,31 @@
+.wrapper-benefit {
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wrapper-benefit .list {
+    font-size: 32px;
+    line-height: 60px;
+}
+
+.wrapper-benefit .icon {
+    color: #D6000D;
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.check::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    font-weight: 900;
+}
