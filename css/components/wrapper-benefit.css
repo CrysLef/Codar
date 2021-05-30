@@ -6,14 +6,14 @@
 }
 
 .wrapper-benefit .list {
-    font-size: 32px;
-    line-height: 60px;
+    font-size: 3.2rem;
+    line-height: 6rem;
 }
 
 .wrapper-benefit .icon {
     color: #D6000D;
-    font-size: 32px;
-    margin-right: 10px;
+    font-size: 3.2rem;
+    margin-right: 1rem;
 }
 
 .icon::before {

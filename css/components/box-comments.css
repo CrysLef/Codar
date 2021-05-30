@@ -1,24 +1,24 @@
 .box-comments {
     background-color: #DDD;
-    height: 210px;
-    width: 500px;
-    border-radius: 15px;
-    margin-right: 70px;
-    padding: 30px 45px 0px 45px;
+    height: 21rem;
+    width: 50rem;
+    border-radius: 1.5rem;
+    margin-right: 7rem;
+    padding: 3rem 4.5rem 0 4.5rem;
 }
 
 .box-comments .circle {
     display: inline-flex;
     border-radius: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 
 .box-comments .user-comment {
     display: inline-block;
-    margin-left: 20px;
-    margin-top: 30px;
+    margin-left: 2rem;
+    margin-top: 3rem;
 }
 
 .box-comments .user-namework {
-    margin-top: 35px;
+    margin-top: 3.5rem;
 }

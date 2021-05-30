@@ -1,10 +1,10 @@
 .wrapper-budget {
     justify-content: center;
-    margin-left: 180px;
-    padding-top: 100px;
+    margin-left: 18rem;
+    padding-top: 10rem;
 }
 
 .red {
     color: #D6000D;
-    font-size: 60px;
+    font-size: 6rem;
 }

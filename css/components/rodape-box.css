@@ -2,12 +2,12 @@
     color: #FFF;
     display: inline-flex;
     flex-direction: column;
-    margin-right: 120px;
-    margin-left: 80px;
-    line-height: 60px;
-    padding-bottom: 50px;
-    font-size: 20px;
-    padding-top: 60px;
+    margin-right: 12rem;
+    margin-left: 8rem;
+    line-height: 6rem;
+    padding-bottom: 5rem;
+    font-size: 2rem;
+    padding-top: 6rem;
 }
 
 .rodape-box .socialmedia {
@@ -18,12 +18,12 @@
 
 .rodape-box .social {
     color: #D6000D;
-    font-size: 35px;
-    margin-top: 12px;
+    font-size: 3.5rem;
+    margin-top: 1.2rem;
     text-decoration: none;
 }
 
 .rodape-box .about {
     line-height: normal;
-    margin-top: 15px;
+    margin-top: 1.5rem;
 }

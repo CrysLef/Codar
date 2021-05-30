@@ -3,15 +3,15 @@
     color: #FFF;
     background-color:  #D6000D;
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 1rem;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.8rem;
     transition: transform 300ms cubic-bezier(0.46, 0.54, 0.82, 2.29);
 }
 
 .btn-pattern.-login {
-    margin-right: 25px;
-    padding: 9px 45px;
+    margin-right: 2.5rem;
+    padding: 0.9rem 4.5rem;
 }
 
 .btn-pattern.-login:hover {
@@ -20,9 +20,9 @@
 }
 
 .btn-pattern.-btnbudget {
-    font-size: 23px;
-    margin-top: 100px;
-    padding: 9px 45px;
+    font-size: 2.3rem;
+    margin-top: 10rem;
+    padding: 0.9rem 4.5rem;
 }
 .btn-pattern.-btnbudget:hover {
     transform: scale(1.02);
@@ -30,7 +30,7 @@
 }
 
 .btn-pattern.-btncall {
-    padding: 18px 45px;
+    padding: 1.8rem 4.5rem;
 }
 .btn-pattern.-btncall:hover {
     background-color: #b10510;
