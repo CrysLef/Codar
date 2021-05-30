@@ -1,0 +1,18 @@
+body,h2,h3,p{
+    margin: 0;
+    font-family: Roboto,sans-serif;
+}
+
+ul {
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+dl,dt,dd {
+    margin:0;
+    padding: 0;
+}
+
+address {
+    font-style: normal;
+}
