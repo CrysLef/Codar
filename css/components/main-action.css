@@ -1,0 +1,10 @@
+.main-action {
+    margin-right: 45px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.main-action:hover {
+    color: #D6000D;
+}
