@@ -1,0 +1,29 @@
+.rodape-box {
+    color: #FFF;
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 120px;
+    margin-left: 80px;
+    line-height: 60px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    padding-top: 60px;
+}
+
+.rodape-box .socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rodape-box .social {
+    color: #D6000D;
+    font-size: 35px;
+    margin-top: 12px;
+    text-decoration: none;
+}
+
+.rodape-box .about {
+    line-height: normal;
+    margin-top: 15px;
+}
