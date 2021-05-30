@@ -1,0 +1,17 @@
+.main-section {
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+.main-section.-benefit {
+    flex-direction: column;
+    padding-left: 170px;
+}
+
+.main-section.-ux {
+    padding-top: 300px;
+    justify-content: space-evenly;
+    padding-bottom: 320px;
+}
