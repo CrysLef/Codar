@@ -1,0 +1,15 @@
+.main-logo {
+    display: inline;
+    font-style: italic;
+    font-size: 44px;
+    font-weight: 700;
+}
+.main-logo.-header {
+    padding-left: 40px;
+    color:  #D6000D;
+}
+
+.ponto {
+    color: #000;
+    font-size:50px;
+}
