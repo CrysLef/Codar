@@ -1,0 +1,26 @@
+.wrapper-call {
+    display: flex;
+    margin-left: 150px;
+    justify-content: flex-start;
+}
+
+.call-text {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-left: 150px;
+    justify-content: flex-start;
+}
+
+.wrapper-call #phone {
+    background-color: #DDD;
+    padding: 18px 20px;
+    font-weight: 400;
+    margin-right: 10px;
+    border: none;
+    color: #000
+}
+
+.wrapper-call #phone:focus {
+    background-color: #FFF;
+}
