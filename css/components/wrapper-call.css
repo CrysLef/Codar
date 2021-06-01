@@ -1,6 +1,5 @@
 .wrapper-call {
     display: flex;
-    margin-left: 15rem;
     justify-content: flex-start;
 }
 
@@ -8,8 +7,8 @@
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
-    margin-left: 15rem;
     justify-content: flex-start;
+    transform: translateY(5.5rem);
 }
 
 .wrapper-call #phone {

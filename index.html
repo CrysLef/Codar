@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/components/wrapper-benefit.css">
     <link rel="stylesheet" href="css/components/wrapper-call.css">
     <link rel="stylesheet" href="css/components/box-comments.css">
+    <link rel="stylesheet" href="css/components/main-img.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/rodape-box.css">
     <link rel="stylesheet" href="css/components/main-text.css">
@@ -39,7 +40,7 @@
     </header>
 
     <section class="main-section">
-        <img src="assets/img/video_call.png" alt="peoples making a video call">
+        <img class="main-img -videocall" src="assets/img/video_call.png" alt="peoples making a video call">
         <div class="wrapper-budget">
             <h2 class="main-text -subtitle">Alavanque seu negócio com um<br>
                 <span class="red">Website incrível</span>
@@ -58,20 +59,19 @@
                 <li><span class="icon check"></span>Chat online</li>
                 <li><span class="icon check"></span>Blog integrado</li>
             </ul>
-            <img src="assets/img/coding.png" alt="a people coding">
+            <label class="call-text" for="phone">Nossa equipe está à disposição!</label>
+            <div class="wrapper-call">
+                <input class="btn-pattern" type="tel" id="phone" name="phone" placeholder="Celular" maxlength="11"
+                    pattern="([0-9]{2})[9]{1}[0-9]{4}-[0-9]{4}">
+                <a href="#" class="btn-pattern -btncall">Ligamos para você</a>
+            </div>
         </div>
-        <label class="call-text" for="phone">Nossa equipe está à disposição!</label>
-        <div class="wrapper-call">
-            <input class="btn-pattern" type="tel" id="phone" name="phone" placeholder="Celular" maxlength="11"
-                pattern="([0-9]{2})[9]{1}[0-9]{4}-[0-9]{4}">
-            <a href="#" class="btn-pattern -btncall">Ligamos para você</a>
-        </div>
-        </div>
+        <img class="main-img -peoplecoding" src="assets/img/coding.png" alt="a person coding">
     </section>
 
     <section class="main-section -ux">
         <article class="box-comments">
-            <img class="circle" src="https://via.placeholder.com/120/D6000D/FFFFFF" alt="User photo">
+            <img class="main-img -circle" src="https://via.placeholder.com/120/D6000D/FFFFFF" alt="User photo">
             <div class="user-comment">
                 <p class="main-text">Já tive experiências com outras 4 empresas<br>da área e a Codar é sem sombra
                     de
@@ -85,7 +85,7 @@
             </div>
         </article>
         <article class="box-comments">
-            <img class="circle" src="https://via.placeholder.com/120/D6000D/FFFFFF" alt="User photo">
+            <img class="main-img -circle" src="https://via.placeholder.com/120/D6000D/FFFFFF" alt="User photo">
             <div class="user-comment">
                 <p class="main-text">Processos bem simples e criação de um<br>site exatamente como a minha
                     escola<br>queria!

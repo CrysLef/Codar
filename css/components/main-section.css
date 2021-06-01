@@ -2,12 +2,15 @@
     display: flex;
     padding-top: 15rem;
     padding-bottom: 5rem;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .main-section.-benefit {
-    flex-direction: column;
-    padding-left: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35rem;
+    justify-content: space-around;
+    padding-bottom: 15rem;
 }
 
 .main-section.-ux {
