@@ -35,3 +35,18 @@
 .btn-pattern.-btncall:hover {
     background-color: #b10510;
 }
+
+@media only screen and (max-width: 45rem) {
+    .btn-pattern.-login {
+        display: none;
+    }
+
+    .btn-pattern.-btnbudget {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .btn-pattern.-btncall {
+        margin-top: 1rem;
+    }
+}

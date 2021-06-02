@@ -1,18 +1,36 @@
 .main-img.-videocall {
-    width: 76rem;
-    height: 65rem;
+    width: 40vw;
+    height: 70vh;
 }
 
 .main-img.-peoplecoding {
-    width: 76rem;
-    height: 69.7rem;
+    width: 42vw;
+    height: 77vh;
     transform: translateY(-12rem);
 }
 
 .main-img.-circle {
-    width: 12rem;
-    height: 12rem;
+    width: 6vw;
+    height: 12vh;
     display: inline-flex;
     border-radius: 50%;
     margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 45rem) {
+    .main-img.-videocall {
+        width: 31.5rem;
+        height: 26.9rem;
+    }
+
+    .main-img.-peoplecoding {
+        width: 31.5rem;
+        height: 28.9rem;
+        transform: none;
+    }
+
+    .main-img.-circle {
+        width: 8rem;
+        height: 8rem;
+    }
 }

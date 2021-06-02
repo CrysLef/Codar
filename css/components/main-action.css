@@ -8,3 +8,9 @@
 .main-action:hover {
     color: #D6000D;
 }
+
+@media only screen and (max-width: 45rem) {
+    .main-action:nth-child(3) {
+        margin-right: 0;
+    }
+}

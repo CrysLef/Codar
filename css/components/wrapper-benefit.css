@@ -29,3 +29,17 @@
     content: "\f058";
     font-weight: 900;
 }
+
+@media only screen and (max-width: 45rem) {
+    .wrapper-benefit {
+        align-items: center;
+    }
+
+    .wrapper-benefit .list {
+        font-size: 2.4rem;
+    }
+
+    .wrapper-benefit .icon {
+        font-size: 2.4rem;
+    }
+}

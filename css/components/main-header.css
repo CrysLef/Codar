@@ -3,3 +3,10 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media only screen and (max-width: 45rem) {
+    .main-header {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

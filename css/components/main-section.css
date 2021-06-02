@@ -15,6 +15,22 @@
 
 .main-section.-ux {
     padding-top: 30rem;
-    justify-content: space-evenly;
     padding-bottom: 32rem;
+}
+
+@media only screen and (max-width: 45rem) {
+    .main-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-section.-benefit {
+        flex-direction: column-reverse;
+        padding-top: 17rem;
+    }
+
+    .main-section.-ux {
+        padding-top: 6rem;
+        padding-bottom: 15rem;
+    }
 }
